@@ -92,3 +92,17 @@ footer p {
 footer {
   margin-bottom: 40px;
 }
+
+@media (max-width: 800px) {
+  .showcase {
+    display: block;
+  }
+  .showcase-img {
+    width: 70%;
+    height: 70%;
+  }
+
+  ul li {
+    display: block;
+  }
+}
